@@ -1,3 +1,4 @@
+
 #pragma once
 #include "Student.h"
 
@@ -34,7 +35,7 @@ public:
 
 		for (int i = 0; i < length; i++)
 		{
-			avg += list[i].mark;			
+			avg += list[i].mark;
 		}
 
 		return avg / length;
